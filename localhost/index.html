@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <style>
+        *{
+            background-color: aquamarine;
+        }
+        h1 {
+            color: blue;
+        }
+        p {
+            color: brown;
+        }
+        button {
+            border-radius: 2px;
+            background-color: blue;
+            color: white
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <p>Criando um site junto ao curso da DIO</p>
+    <button id="ttnTeste" type="button">
+        Teste
+    </button>
+
+    <script>
+        const btnTeste = document.getElementById('ttnTeste');
+        btnTeste.addEventListener("click", function() {
+            console.log("Clicou no Botão!");
+        });
+    </script>
+</body>
+</html>
