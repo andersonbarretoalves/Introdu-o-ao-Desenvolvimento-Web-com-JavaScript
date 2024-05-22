@@ -5,36 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
 
-    <style>
-        *{
-            background-color: aquamarine;
-        }
-        h1 {
-            color: blue;
-        }
-        p {
-            color: brown;
-        }
-        button {
-            border-radius: 2px;
-            background-color: blue;
-            color: white
-        }
-    </style>
+    <!--Normalize CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!--Fonte Robote-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="/localhost/assets/CSS/global.css"> 
 </head>
 <body>
-    <h1>Olá Mundo!</h1>
-    <p>Criando um site junto ao curso da DIO</p>
-    <button id="ttnTeste" type="button">
-        Teste
-    </button>
+    
+    <section class="content">
+        <h1>Pokedex</h1>
 
-    <script>
-        const btnTeste = document.getElementById('ttnTeste');
-        btnTeste.addEventListener("click", function() {
-            console.log("Clicou no Botão!");
-        });
-    </script>
+        <ol>
+            <li>
+                Bulbasaur
+            </li>
+            <li>
+                Ivysaur
+            </li>
+            <li>
+                Venusaur
+            </li>
+        </ol>
+    </section>
+
+    <!--JavaScript-->
+    <script src="/localhost/assets/JS/main.js"></script>
 </body>
 </html>
